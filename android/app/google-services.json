@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "258038249794",
+    "project_id": "car-rental-app-naumanbutt2002",
+    "storage_bucket": "car-rental-app-naumanbutt2002.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258038249794:android:d60f674e0e2c54e73870db",
+        "android_client_info": {
+          "package_name": "com.example.car_ren"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYXUGkw8gP7At879nTCGtx6Yo4m25oYME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258038249794:android:e05f4c6b3a111a943870db",
+        "android_client_info": {
+          "package_name": "com.example.car_rental_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYXUGkw8gP7At879nTCGtx6Yo4m25oYME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
