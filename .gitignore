@@ -9,6 +9,7 @@
 .history
 .svn/
 migrate_working_dir/
+node_modules
 
 # IntelliJ related
 *.iml
@@ -41,3 +42,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# FVM Version Cache
+.fvm/
+
+#other new
+.node_modules/
+./firebase.json
+./.firebaserc
