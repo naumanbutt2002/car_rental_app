@@ -175,7 +175,7 @@ Widget carDetailsCard({required Car car}) {
               )),
           Positioned(
             top: 50,
-            right: 30,
+            right: 10,
             child: Image.asset(
               'assets/white_car.png',
             ),

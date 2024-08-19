@@ -1,6 +1,5 @@
 import 'package:car_rental_app/data/models/car.dart';
 import 'package:car_rental_app/presentation/pages/car_details_page.dart';
-import 'package:car_rental_app/presentation/pages/car_list_screen.dart';
 import 'package:flutter/material.dart';
 
 class CarCard extends StatelessWidget {
@@ -11,15 +10,21 @@ class CarCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => CarDetailsPage(car: car,))),
-
+      onTap: () {
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => CarDetailsPage(
+                      car: car,
+                    )));
+      },
       child: Container(
         margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          color: Color(0xffF3F3F3),
+          color: const Color(0xffF3F3F3),
           borderRadius: BorderRadius.circular(20),
-          boxShadow: [
+          boxShadow: const [
             BoxShadow(
               color: Colors.black12,
               blurRadius: 10,
@@ -33,16 +38,15 @@ class CarCard extends StatelessWidget {
               'assets/car_image.png',
               height: 120,
             ),
+            const SizedBox(height: 10),
             Text(
               car.model,
-              style: TextStyle(
+              style: const TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 20,
               ),
             ),
-            SizedBox(
-              height: 10,
-            ),
+            const SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -50,17 +54,14 @@ class CarCard extends StatelessWidget {
                   children: [
                     Row(
                       children: [
-                        Image.asset(
-                          'assets/gps.png',
-                        ),
+                        Image.asset('assets/gps.png'),
                         Text('${car.distance.toStringAsFixed(0)}km'),
                       ],
                     ),
+                    const SizedBox(width: 10), // Added some spacing
                     Row(
                       children: [
-                        Image.asset(
-                          'assets/pump.png',
-                        ),
+                        Image.asset('assets/pump.png'),
                         Text('${car.fuelCapacity.toStringAsFixed(0)}L'),
                       ],
                     ),
@@ -68,12 +69,12 @@ class CarCard extends StatelessWidget {
                 ),
                 Text(
                   '\$${car.pricePerHour.toStringAsFixed(2)}/h',
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontSize: 16,
                   ),
-                )
+                ),
               ],
-            )
+            ),
           ],
         ),
       ),
