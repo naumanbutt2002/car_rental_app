@@ -1,6 +1,7 @@
 import 'package:car_rental_app/firebase_options.dart';
 import 'package:car_rental_app/presentation/pages/car_details_page.dart';
 import 'package:car_rental_app/presentation/pages/car_list_screen.dart';
+import 'package:car_rental_app/presentation/pages/maps_detail_page.dart';
 import 'package:car_rental_app/presentation/pages/onboarding_page.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';

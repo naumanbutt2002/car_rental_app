@@ -2,23 +2,19 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
+      "name": "Flutter: Launch App",
+      "type": "dart",
       "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "d:/flutter_projects/car_rental_app/lib",
-      "program": "d:/flutter_projects/car_rental_app/lib/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
+      "program": "lib/main.dart",
+      "cwd": "d:/flutter_projects/car_rental_app",
+      "args": []
+    },
+    {
+      "name": "Flutter: Attach to App",
+      "type": "dart",
+      "request": "attach",
+      "deviceId": "flutter",
+      "cwd": "d:/flutter_projects/car_rental_app"
     }
   ]
 }
