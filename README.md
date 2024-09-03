@@ -38,7 +38,7 @@ The **Car Rental Application** is a comprehensive mobile solution for car rental
 
 | ![Car Details](https://github.com/user-attachments/assets/09e2f055-db2f-4ead-9a24-51dbb3b9c5f0) | ![Map Integration](https://github.com/user-attachments/assets/119c13ab-9d1b-4bd0-a3b3-b8c1cf404230) |
 |:-----------------------------------------:|:----------------------------------------------------:|
-| *Car Details Screen*      | *Map Integration with OpenStreetMaps*                           |
+| *Car Details Screen*      | *Map Integration Screen*                           |
 
 ## Installation
 
