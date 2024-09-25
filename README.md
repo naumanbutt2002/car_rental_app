@@ -1,3 +1,5 @@
+![CarsRental](https://github.com/user-attachments/assets/08a1e425-1526-47e4-a389-ac1f7e3936b2)
+
 # Car Rental Application
 
 ![Platform](https://img.shields.io/badge/platform-iOS%20|%20Android-brightgreen)
